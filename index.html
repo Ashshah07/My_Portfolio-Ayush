@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bcdfa6f5f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="si/logo2.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li> <!-----header used for scrolling-->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1>Hi, I'm <span>Ayush Shah</span> <br> From Nagpur India</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------About section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="si/photo-output 3.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Self-motivated, highly passionate, and hardworking fresher looking for an opportunity to work in a challenging organization to utilize my skills and knowledge to work for the growth of the organisation.</p>
+                    <div class="tab-titles">
+                        <p>Skills</p>
+                    </div>
+                    <div class="tab-contents">
+                        <ul>
+                        <li><span>2023</span><br>SQL</li>
+                        <li><span>2023</span><br>HTML/CSS</li>
+                        <li><span>2023</span><br>OOPS</li>
+                        <li><span>2023</span><br>JAVA</li>
+                        <li><span>2023</span><br>Computer Networks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------here onwards services starts-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Extremely passionate web designer, skilled in Adobe Creative Suite, HTML, and CSS.</p>
+                    <a href="#">Learn More</a> <!-------link for learn more a tag used-->
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Analysis</h2>
+                    <p>I feel there can be a real sense of achievement working in SQL, from solving broken queries to designing new ones!</p>
+                    <a href="#">Learn More</a> <!-------link for learn more a tag used-->
+                </div>
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>Network Analysis</h2>
+                    <p>Wants to work as an Network Analysis as having interest in Computer Networks</p>
+                    <a href="#">Learn More</a> <!-------link for learn more a tag used-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------Contactstarts------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ayushshah2210@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8788508638</p>
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/ash_shah_07/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/ash_shah_07"><i class=><i class="fa-brands fa-twitter"></i></i></a>
+                        <a href=""><i class=><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/ayush-shah-9b0480220/"><i class=><i class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                    <a href="si/Ayush shah resume.pdf" class="btn">Download CV</a>
+                
+                </div>
+                <div class="contact-right">
+                    <form > <!----formtag-used-->
+                        <input type="text" name="Name" placeholder="Your Name" required> 
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" id=""  rows="6" placeholder="Your Message"></textarea> <!----bigplace------>
+                        <button type="submit" class="btn btn2">Submit</button> <!-----here-button-will-be-created-->
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Made with <i class="fa-solid fa-heart"></i> by Ayush Shah</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #080808;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(si/photo-output.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    transition-delay: 0.5s;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+   
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #800080;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+nav ul li a:hover::after{
+    width:100%;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+   
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #800080;
+    
+}
+/*-------------about-------*/
+#about{
+    padding: 40px 0;
+    color: #ababab;
+}
+.row{
+    display: flex; /*------sidebyside-----*/
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.tab-contents ul li {
+    list-style: none;
+    margin: 7px 0;
+}
+.tab-contents span{
+    color: #800080;
+    font-size: 14px;
+}
+/*--------servicess------------*/
+#services{
+    padding: 30px 0;
+}
+.services-list{    /*------- . use because it is an class name---*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+}
+.services-list div{
+    background: #262626;
+    padding: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+.services-list div i{
+    font-size: 32px;
+}
+.services-list div h2{
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.services-list div:hover{ /*------backgroundcolorchange----*/
+    background: #800080;
+    transform:translateX(-10px); /*---------moveupwards------*/
+}
+/*--------------Contact--------*/
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{       /*----total--95%--used---as5%--space---left*/
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #800080;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icon{
+    margin-top: 30px;
+    
+}
+.social-icon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block; /*ek_sath_ek_hi_line_me*/
+    
+}
+.social-icon a:hover{  /*---icon--colour---change--karega--*/
+    color: #800080;
+    transform: translateY(-5px); /*move--the--icon*/
+
+}
+.btn{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0%;
+    font-size: large;
+    margin-top: 1cm;
+    
+    
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright i{
+    color: #800080;
+    
+}
+
+
+
+    
+
